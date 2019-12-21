@@ -15,6 +15,8 @@ public class HRM_Login {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("http://testingmasters.com/hrm");
+		
+		System.out.println("Login Page Opened");
 	}
 
 }
